@@ -25,6 +25,9 @@ const meta: Meta<typeof SheetContent> = {
       control: {
         type: "radio",
       },
+      table: {
+        defaultValue: { summary: "right" },
+      },
     },
   },
   args: {

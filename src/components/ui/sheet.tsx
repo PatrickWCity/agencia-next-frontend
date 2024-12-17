@@ -6,6 +6,7 @@ import { cva, type VariantProps } from "class-variance-authority";
 import { X } from "lucide-react";
 
 import { cn } from "@/lib/utils";
+import PropTypes from "prop-types";
 
 const Sheet = SheetPrimitive.Root;
 
@@ -125,6 +126,10 @@ const SheetDescription = React.forwardRef<
   />
 ));
 SheetDescription.displayName = SheetPrimitive.Description.displayName;
+
+SheetContent.propTypes = {
+  side: PropTypes.oneOf(["top", "bottom", "left", "right"]),
+};
 
 export {
   Sheet,
