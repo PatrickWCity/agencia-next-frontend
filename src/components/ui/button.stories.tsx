@@ -14,6 +14,16 @@ const meta = {
     children: {
       control: "text",
     },
+    variant: {
+      table: {
+        defaultValue: { summary: "default" },
+      },
+    },
+    size: {
+      table: {
+        defaultValue: { summary: "default" },
+      },
+    },
   },
   parameters: {
     layout: "centered",
