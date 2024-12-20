@@ -1,4 +1,5 @@
 {
+    "editor.tabSize": 2,
     "sonarlint.connectedMode.project": {
         "connectionId": "http-localhost-9000",
         "projectKey": "agencia-next-fullstack"
