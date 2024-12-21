@@ -1,5 +1,9 @@
 {
+    "editor.formatOnSave": true,
     "editor.tabSize": 2,
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
     "sonarlint.connectedMode.project": {
         "connectionId": "http-localhost-9000",
         "projectKey": "agencia-next-fullstack"
