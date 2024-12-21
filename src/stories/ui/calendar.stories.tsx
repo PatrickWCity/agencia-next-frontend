@@ -16,11 +16,11 @@ const meta = {
     mode: 'single',
     selected: new Date(),
     onSelect: action('onDayClick'),
-    className: 'rounded-md border w-fit',
+    className: 'rounded-md border w-fit'
   },
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Calendar>
 
 export default meta
@@ -39,8 +39,8 @@ export const Multiple: Story = {
   args: {
     min: 1,
     selected: [new Date(), addDays(new Date(), 2), addDays(new Date(), 8)],
-    mode: 'multiple',
-  },
+    mode: 'multiple'
+  }
 }
 
 /**
@@ -50,10 +50,10 @@ export const Range: Story = {
   args: {
     selected: {
       from: new Date(),
-      to: addDays(new Date(), 7),
+      to: addDays(new Date(), 7)
     },
-    mode: 'range',
-  },
+    mode: 'range'
+  }
 }
 
 /**
@@ -65,9 +65,9 @@ export const Disabled: Story = {
       addDays(new Date(), 1),
       addDays(new Date(), 2),
       addDays(new Date(), 3),
-      addDays(new Date(), 5),
-    ],
-  },
+      addDays(new Date(), 5)
+    ]
+  }
 }
 
 /**
@@ -76,6 +76,6 @@ export const Disabled: Story = {
 export const MultipleMonths: Story = {
   args: {
     numberOfMonths: 2,
-    showOutsideDays: false,
-  },
+    showOutsideDays: false
+  }
 }

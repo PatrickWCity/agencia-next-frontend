@@ -13,7 +13,7 @@ const meta = {
   argTypes: {},
   args: {
     defaultValue: 'comfortable',
-    className: 'grid gap-2 grid-cols-[1rem_1fr] items-center',
+    className: 'grid gap-2 grid-cols-[1rem_1fr] items-center'
   },
   render: (args) => (
     <RadioGroup {...args}>
@@ -24,7 +24,7 @@ const meta = {
       <RadioGroupItem value='compact' id='r3' />
       <label htmlFor='r3'>Compact</label>
     </RadioGroup>
-  ),
+  )
 } satisfies Meta<typeof RadioGroup>
 
 export default meta

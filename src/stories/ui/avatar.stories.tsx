@@ -17,8 +17,8 @@ const meta = {
     </Avatar>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Avatar>
 
 export default meta

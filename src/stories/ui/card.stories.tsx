@@ -7,22 +7,22 @@ import {
   CardDescription,
   CardFooter,
   CardHeader,
-  CardTitle,
+  CardTitle
 } from '@/components/ui/card'
 
 const notifications = [
   {
     title: 'Your call has been confirmed.',
-    description: '1 hour ago',
+    description: '1 hour ago'
   },
   {
     title: 'You have a new message!',
-    description: '1 hour ago',
+    description: '1 hour ago'
   },
   {
     title: 'Your subscription is expiring soon!',
-    description: '2 hours ago',
-  },
+    description: '2 hours ago'
+  }
 ]
 
 /**
@@ -34,7 +34,7 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {},
   args: {
-    className: 'w-96',
+    className: 'w-96'
   },
   render: (args) => (
     <Card {...args}>
@@ -59,8 +59,8 @@ const meta = {
     </Card>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Card>
 
 export default meta

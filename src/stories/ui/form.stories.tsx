@@ -11,7 +11,7 @@ import {
   FormField,
   FormItem,
   FormLabel,
-  FormMessage,
+  FormMessage
 } from '@/components/ui/form'
 
 /**
@@ -22,7 +22,7 @@ const meta: Meta<typeof Form> = {
   component: Form,
   tags: ['autodocs'],
   argTypes: {},
-  render: (args) => <ProfileForm {...args} />,
+  render: (args) => <ProfileForm {...args} />
 } satisfies Meta<typeof Form>
 
 export default meta
@@ -31,16 +31,16 @@ type Story = StoryObj<typeof meta>
 
 const formSchema = z.object({
   username: z.string().min(2, {
-    message: 'Username must be at least 2 characters.',
-  }),
+    message: 'Username must be at least 2 characters.'
+  })
 })
 
 const ProfileForm = (args: Story['args']) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
-      username: '',
-    },
+      username: ''
+    }
   })
   function onSubmit(values: z.infer<typeof formSchema>) {
     action('onSubmit')(values)

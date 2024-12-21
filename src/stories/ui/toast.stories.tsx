@@ -5,7 +5,7 @@ import {
   Toast,
   ToastAction,
   ToastActionElement,
-  ToastProps,
+  ToastProps
 } from '@/components/ui/toast'
 import { Toaster } from '@/components/ui/toaster'
 
@@ -18,7 +18,7 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {},
   parameters: {
-    layout: 'centered',
+    layout: 'centered'
   },
   render: (args) => {
     const { toast } = useToast()
@@ -34,7 +34,7 @@ const meta = {
         <Toaster />
       </div>
     )
-  },
+  }
 } satisfies Meta<typeof Toast>
 
 export default meta
@@ -55,8 +55,8 @@ type ToasterToast = ToastProps & {
  */
 export const Default: Story = {
   args: {
-    description: 'Your message has been sent.',
-  },
+    description: 'Your message has been sent.'
+  }
 }
 
 /**
@@ -65,8 +65,8 @@ export const Default: Story = {
 export const WithTitle: Story = {
   args: {
     title: 'Uh oh! Something went wrong.',
-    description: 'There was a problem with your request.',
-  },
+    description: 'There was a problem with your request.'
+  }
 }
 
 /**
@@ -76,8 +76,8 @@ export const WithAction: Story = {
   args: {
     title: 'Uh oh! Something went wrong.',
     description: 'There was a problem with your request.',
-    action: <ToastAction altText='Try again'>Try again</ToastAction>,
-  },
+    action: <ToastAction altText='Try again'>Try again</ToastAction>
+  }
 }
 
 /**
@@ -88,6 +88,6 @@ export const Destructive: Story = {
     variant: 'destructive',
     title: 'Uh oh! Something went wrong.',
     description: 'There was a problem with your request.',
-    action: <ToastAction altText='Try again'>Try again</ToastAction>,
-  },
+    action: <ToastAction altText='Try again'>Try again</ToastAction>
+  }
 }

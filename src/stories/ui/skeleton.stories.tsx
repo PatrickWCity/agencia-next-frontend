@@ -11,8 +11,8 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {},
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Skeleton>
 
 export default meta
@@ -31,5 +31,5 @@ export const Default: Story = {
         <Skeleton {...args} className='h-4 w-[200px]' />
       </div>
     </div>
-  ),
+  )
 }

@@ -11,7 +11,7 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {},
   parameters: {
-    layout: 'centered',
+    layout: 'centered'
   },
   render: (args) => (
     <div className='flex items-center space-x-2'>
@@ -20,7 +20,7 @@ const meta = {
         Airplane Mode
       </label>
     </div>
-  ),
+  )
 } satisfies Meta<typeof Switch>
 
 export default meta
@@ -32,8 +32,8 @@ type Story = StoryObj<typeof meta>
  */
 export const Default: Story = {
   args: {
-    id: 'default-switch',
-  },
+    id: 'default-switch'
+  }
 }
 
 /**
@@ -42,6 +42,6 @@ export const Default: Story = {
 export const Disabled: Story = {
   args: {
     id: 'disabled-switch',
-    disabled: true,
-  },
+    disabled: true
+  }
 }

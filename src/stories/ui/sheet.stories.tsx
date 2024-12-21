@@ -8,7 +8,7 @@ import {
   SheetFooter,
   SheetHeader,
   SheetTitle,
-  SheetTrigger,
+  SheetTrigger
 } from '@/components/ui/sheet'
 
 /**
@@ -23,15 +23,15 @@ const meta: Meta<typeof SheetContent> = {
     side: {
       options: ['top', 'bottom', 'left', 'right'],
       control: {
-        type: 'radio',
+        type: 'radio'
       },
       table: {
-        defaultValue: { summary: 'right' },
-      },
-    },
+        defaultValue: { summary: 'right' }
+      }
+    }
   },
   args: {
-    side: 'right',
+    side: 'right'
   },
   render: (args) => (
     <Sheet>
@@ -56,8 +56,8 @@ const meta: Meta<typeof SheetContent> = {
     </Sheet>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof SheetContent>
 
 export default meta

@@ -7,7 +7,7 @@ import {
   CommandGroup,
   CommandInput,
   CommandItem,
-  CommandList,
+  CommandList
 } from '@/components/ui/command'
 
 /**
@@ -19,7 +19,7 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {},
   args: {
-    className: 'rounded-lg w-96 border shadow-md',
+    className: 'rounded-lg w-96 border shadow-md'
   },
   render: (args) => (
     <Command {...args}>
@@ -41,8 +41,8 @@ const meta = {
     </Command>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Command>
 
 export default meta

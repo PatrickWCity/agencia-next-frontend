@@ -11,13 +11,13 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     children: {
-      control: { type: 'text' },
-    },
+      control: { type: 'text' }
+    }
   },
   args: {
     children: 'Your email address',
-    htmlFor: 'email',
-  },
+    htmlFor: 'email'
+  }
 } satisfies Meta<typeof Label>
 
 export default meta

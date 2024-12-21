@@ -3,7 +3,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import {
   Popover,
   PopoverContent,
-  PopoverTrigger,
+  PopoverTrigger
 } from '@/components/ui/popover'
 
 /**
@@ -22,8 +22,8 @@ const meta = {
     </Popover>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Popover>
 
 export default meta

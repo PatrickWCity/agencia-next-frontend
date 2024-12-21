@@ -4,7 +4,7 @@ import { Info } from 'lucide-react'
 import {
   Collapsible,
   CollapsibleContent,
-  CollapsibleTrigger,
+  CollapsibleTrigger
 } from '@/components/ui/collapsible'
 
 /**
@@ -17,7 +17,7 @@ const meta = {
   argTypes: {},
   args: {
     className: 'w-96',
-    disabled: false,
+    disabled: false
   },
   render: (args) => (
     <Collapsible {...args}>
@@ -32,8 +32,8 @@ const meta = {
     </Collapsible>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Collapsible>
 
 export default meta
@@ -50,6 +50,6 @@ export const Default: Story = {}
  */
 export const Disabled: Story = {
   args: {
-    disabled: true,
-  },
+    disabled: true
+  }
 }

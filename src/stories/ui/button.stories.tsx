@@ -12,27 +12,27 @@ const meta = {
   tags: ['autodocs'],
   argTypes: {
     children: {
-      control: 'text',
+      control: 'text'
     },
     variant: {
       table: {
-        defaultValue: { summary: 'default' },
-      },
+        defaultValue: { summary: 'default' }
+      }
     },
     size: {
       table: {
-        defaultValue: { summary: 'default' },
-      },
-    },
+        defaultValue: { summary: 'default' }
+      }
+    }
   },
   parameters: {
-    layout: 'centered',
+    layout: 'centered'
   },
   args: {
     variant: 'default',
     size: 'default',
-    children: 'Button',
-  },
+    children: 'Button'
+  }
 } satisfies Meta<typeof Button>
 
 export default meta
@@ -50,8 +50,8 @@ export const Default: Story = {}
  */
 export const Outline: Story = {
   args: {
-    variant: 'outline',
-  },
+    variant: 'outline'
+  }
 }
 
 /**
@@ -60,8 +60,8 @@ export const Outline: Story = {
  */
 export const Ghost: Story = {
   args: {
-    variant: 'ghost',
-  },
+    variant: 'ghost'
+  }
 }
 
 /**
@@ -70,8 +70,8 @@ export const Ghost: Story = {
  */
 export const Secondary: Story = {
   args: {
-    variant: 'secondary',
-  },
+    variant: 'secondary'
+  }
 }
 
 /**
@@ -80,8 +80,8 @@ export const Secondary: Story = {
  */
 export const Destructive: Story = {
   args: {
-    variant: 'destructive',
-  },
+    variant: 'destructive'
+  }
 }
 
 /**
@@ -90,8 +90,8 @@ export const Destructive: Story = {
  */
 export const Link: Story = {
   args: {
-    variant: 'link',
-  },
+    variant: 'link'
+  }
 }
 
 /**
@@ -107,8 +107,8 @@ export const Loading: Story = {
   ),
   args: {
     ...Outline.args,
-    disabled: true,
-  },
+    disabled: true
+  }
 }
 
 /**
@@ -122,8 +122,8 @@ export const WithIcon: Story = {
     </Button>
   ),
   args: {
-    ...Secondary.args,
-  },
+    ...Secondary.args
+  }
 }
 
 /**
@@ -132,8 +132,8 @@ export const WithIcon: Story = {
  */
 export const Small: Story = {
   args: {
-    size: 'sm',
-  },
+    size: 'sm'
+  }
 }
 
 /**
@@ -142,8 +142,8 @@ export const Small: Story = {
  */
 export const Large: Story = {
   args: {
-    size: 'lg',
-  },
+    size: 'lg'
+  }
 }
 
 /**
@@ -153,8 +153,8 @@ export const Icon: Story = {
   args: {
     ...Secondary.args,
     size: 'icon',
-    children: <Mail />,
-  },
+    children: <Mail />
+  }
 }
 
 /**
@@ -162,6 +162,6 @@ export const Icon: Story = {
  */
 export const Disabled: Story = {
   args: {
-    disabled: true,
-  },
+    disabled: true
+  }
 }

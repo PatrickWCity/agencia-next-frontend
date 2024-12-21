@@ -12,13 +12,13 @@ const meta: Meta<typeof Checkbox> = {
   argTypes: {
     disabled: {
       table: {
-        defaultValue: { summary: 'false' },
-      },
-    },
+        defaultValue: { summary: 'false' }
+      }
+    }
   },
   args: {
     id: 'terms',
-    disabled: false,
+    disabled: false
   },
   render: (args) => (
     <div className='flex space-x-2'>
@@ -32,8 +32,8 @@ const meta: Meta<typeof Checkbox> = {
     </div>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Checkbox>
 
 export default meta
@@ -51,6 +51,6 @@ export const Default: Story = {}
 export const Disabled: Story = {
   args: {
     id: 'disabled-terms',
-    disabled: true,
-  },
+    disabled: true
+  }
 }

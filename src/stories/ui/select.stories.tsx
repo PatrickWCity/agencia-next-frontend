@@ -8,7 +8,7 @@ import {
   SelectLabel,
   SelectSeparator,
   SelectTrigger,
-  SelectValue,
+  SelectValue
 } from '@/components/ui/select'
 
 /**
@@ -56,8 +56,8 @@ const meta: Meta<typeof Select> = {
     </Select>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Select>
 
 export default meta

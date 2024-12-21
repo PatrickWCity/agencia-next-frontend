@@ -5,7 +5,7 @@ import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
-  TooltipTrigger,
+  TooltipTrigger
 } from '@/components/ui/tooltip'
 
 /**
@@ -20,19 +20,19 @@ const meta: Meta<typeof TooltipContent> = {
     side: {
       options: ['top', 'bottom', 'left', 'right'],
       control: {
-        type: 'radio',
-      },
+        type: 'radio'
+      }
     },
     children: {
-      control: 'text',
-    },
+      control: 'text'
+    }
   },
   args: {
     side: 'top',
-    children: 'Add to library',
+    children: 'Add to library'
   },
   parameters: {
-    layout: 'centered',
+    layout: 'centered'
   },
   render: (args) => (
     <TooltipProvider>
@@ -44,7 +44,7 @@ const meta: Meta<typeof TooltipContent> = {
         <TooltipContent {...args} />
       </Tooltip>
     </TooltipProvider>
-  ),
+  )
 } satisfies Meta<typeof TooltipContent>
 
 export default meta
@@ -61,8 +61,8 @@ export const Default: Story = {}
  */
 export const Bottom: Story = {
   args: {
-    side: 'bottom',
-  },
+    side: 'bottom'
+  }
 }
 
 /**
@@ -70,8 +70,8 @@ export const Bottom: Story = {
  */
 export const Left: Story = {
   args: {
-    side: 'left',
-  },
+    side: 'left'
+  }
 }
 
 /**
@@ -79,6 +79,6 @@ export const Left: Story = {
  */
 export const Right: Story = {
   args: {
-    side: 'right',
-  },
+    side: 'right'
+  }
 }

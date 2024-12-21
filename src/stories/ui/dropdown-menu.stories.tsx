@@ -16,7 +16,7 @@ import {
   DropdownMenuSub,
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
-  DropdownMenuTrigger,
+  DropdownMenuTrigger
 } from '@/components/ui/dropdown-menu'
 
 /**
@@ -42,8 +42,8 @@ const meta = {
     </DropdownMenu>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof DropdownMenu>
 
 export default meta
@@ -74,7 +74,7 @@ export const WithShortcuts: Story = {
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  ),
+  )
 }
 
 /**
@@ -118,7 +118,7 @@ export const WithSubmenus: Story = {
         </DropdownMenuGroup>
       </DropdownMenuContent>
     </DropdownMenu>
-  ),
+  )
 }
 
 /**
@@ -137,7 +137,7 @@ export const WithRadioItems: Story = {
         </DropdownMenuRadioGroup>
       </DropdownMenuContent>
     </DropdownMenu>
-  ),
+  )
 }
 
 /**
@@ -155,5 +155,5 @@ export const WithCheckboxes: Story = {
         <DropdownMenuCheckboxItem>Show Comments</DropdownMenuCheckboxItem>
       </DropdownMenuContent>
     </DropdownMenu>
-  ),
+  )
 }

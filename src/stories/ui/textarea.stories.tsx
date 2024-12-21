@@ -12,8 +12,8 @@ const meta = {
   argTypes: {},
   args: {
     placeholder: 'Type your message here.',
-    disabled: false,
-  },
+    disabled: false
+  }
 } satisfies Meta<typeof Textarea>
 
 export default meta
@@ -30,8 +30,8 @@ export const Default: Story = {}
  */
 export const Disabled: Story = {
   args: {
-    disabled: true,
-  },
+    disabled: true
+  }
 }
 
 /**
@@ -44,7 +44,7 @@ export const WithLabel: Story = {
       <label htmlFor='message'>Your message</label>
       <Textarea {...args} id='message' />
     </div>
-  ),
+  )
 }
 
 /**
@@ -60,7 +60,7 @@ export const WithText: Story = {
         Your message will be copied to the support team.
       </p>
     </div>
-  ),
+  )
 }
 
 /**
@@ -78,5 +78,5 @@ export const WithButton: Story = {
         Send Message
       </button>
     </div>
-  ),
+  )
 }

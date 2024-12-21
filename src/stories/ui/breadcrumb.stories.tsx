@@ -7,7 +7,7 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator,
+  BreadcrumbSeparator
 } from '@/components/ui/breadcrumb'
 
 /**
@@ -37,8 +37,8 @@ const meta = {
     </Breadcrumb>
   ),
   parameters: {
-    layout: 'centered',
-  },
+    layout: 'centered'
+  }
 } satisfies Meta<typeof Breadcrumb>
 
 export default meta
@@ -74,5 +74,5 @@ export const WithCustomSeparator: Story = {
         </BreadcrumbItem>
       </BreadcrumbList>
     </Breadcrumb>
-  ),
+  )
 }
