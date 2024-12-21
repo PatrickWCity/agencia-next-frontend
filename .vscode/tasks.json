@@ -49,6 +49,14 @@
 		},
 		{
 			"type": "npm",
+			"script": "test:ui",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test:ui",
+			"detail": "vitest --ui"
+		},
+		{
+			"type": "npm",
 			"script": "storybook",
 			"problemMatcher": [],
 			"label": "npm: storybook",
