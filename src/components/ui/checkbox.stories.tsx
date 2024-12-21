@@ -9,7 +9,13 @@ const meta: Meta<typeof Checkbox> = {
   title: "ui/Checkbox",
   component: Checkbox,
   tags: ["autodocs"],
-  argTypes: {},
+  argTypes: {
+    disabled: {
+      table: {
+        defaultValue: { summary: "false" },
+      },
+    },
+  },
   args: {
     id: "terms",
     disabled: false,
