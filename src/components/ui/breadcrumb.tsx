@@ -102,7 +102,7 @@ const BreadcrumbEllipsis = ({
     <span className='sr-only'>More</span>
   </span>
 )
-BreadcrumbEllipsis.displayName = 'BreadcrumbElipssis'
+BreadcrumbEllipsis.displayName = 'BreadcrumbElipsis'
 
 export {
   Breadcrumb,
@@ -111,5 +111,5 @@ export {
   BreadcrumbLink,
   BreadcrumbPage,
   BreadcrumbSeparator,
-  BreadcrumbEllipsis,
+  BreadcrumbEllipsis
 }
