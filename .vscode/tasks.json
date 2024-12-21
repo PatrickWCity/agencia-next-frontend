@@ -38,6 +38,17 @@
 		},
 		{
 			"type": "npm",
+			"script": "test",
+			"group": {
+				"kind": "test",
+				"isDefault": true
+			},
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "vitest"
+		},
+		{
+			"type": "npm",
 			"script": "storybook",
 			"problemMatcher": [],
 			"label": "npm: storybook",
@@ -51,6 +62,14 @@
 			"problemMatcher": [],
 			"label": "npm: build-storybook",
 			"detail": "storybook build"
+		},
+		{
+			"type": "npm",
+			"script": "test-storybook",
+			"problemMatcher": [],
+			"label": "npm: test-storybook",
+			"detail": "test-storybook",
+			"group": "test"
 		},
 		{
 			"type": "npm",
