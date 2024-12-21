@@ -3,6 +3,7 @@
     "editor.tabSize": 2,
     "prettier.semi": false,
     "prettier.singleQuote": true,
+    "prettier.trailingComma": "none",
     "prettier.jsxSingleQuote": true,
     "sonarlint.connectedMode.project": {
         "connectionId": "http-localhost-9000",
