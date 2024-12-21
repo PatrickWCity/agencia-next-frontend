@@ -5,13 +5,13 @@ import {
   BreadcrumbLink,
   BreadcrumbList,
   BreadcrumbPage,
-  BreadcrumbSeparator,
+  BreadcrumbSeparator
 } from '@/components/ui/breadcrumb'
 import { Separator } from '@/components/ui/separator'
 import {
   SidebarInset,
   SidebarProvider,
-  SidebarTrigger,
+  SidebarTrigger
 } from '@/components/ui/sidebar'
 
 export default function Page() {
