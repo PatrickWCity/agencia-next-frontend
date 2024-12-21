@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Textarea } from "./textarea";
+import { Textarea } from "@/components/ui/textarea";
 
 /**
  * Displays a form textarea or a component that looks like a textarea.

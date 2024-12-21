@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Skeleton } from "./skeleton";
+import { Skeleton } from "@/components/ui/skeleton";
 
 /**
  * Use to show a placeholder while content is loading.

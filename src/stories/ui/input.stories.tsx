@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react";
 
-import { Input } from "./input";
+import { Input } from "@/components/ui/input";
 
 /**
  * Displays a form input field or a component that looks like an input field.

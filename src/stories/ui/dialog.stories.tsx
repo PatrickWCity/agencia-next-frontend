@@ -9,7 +9,7 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
-} from "./dialog";
+} from "@/components/ui/dialog";
 
 /**
  * A window overlaid on either the primary window or another dialog window,

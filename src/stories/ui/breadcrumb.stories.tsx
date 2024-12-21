@@ -8,7 +8,7 @@ import {
   BreadcrumbList,
   BreadcrumbPage,
   BreadcrumbSeparator,
-} from "./breadcrumb";
+} from "@/components/ui/breadcrumb";
 
 /**
  * Displays the path to the current resource using a hierarchy of links.

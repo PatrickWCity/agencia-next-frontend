@@ -12,7 +12,7 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "./form";
+} from "@/components/ui/form";
 
 /**
  * Building forms with React Hook Form and Zod.

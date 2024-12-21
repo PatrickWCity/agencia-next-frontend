@@ -5,7 +5,7 @@ import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
-} from "./collapsible";
+} from "@/components/ui/collapsible";
 
 /**
  * An interactive component which expands/collapses a panel.

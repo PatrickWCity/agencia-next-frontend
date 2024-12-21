@@ -17,7 +17,7 @@ import {
   DropdownMenuSubContent,
   DropdownMenuSubTrigger,
   DropdownMenuTrigger,
-} from "./dropdown-menu";
+} from "@/components/ui/dropdown-menu";
 
 /**
  * Displays a menu to the user — such as a set of actions or functions —
