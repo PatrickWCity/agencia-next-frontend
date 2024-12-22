@@ -1,11 +1,20 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import profilePic from '@/public/me.png'
 
 export default function Home() {
   return (
     <div className='grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]'>
       <h1>Home</h1>
       <Link href='/about'>About</Link>
+      <Image
+        src={profilePic}
+        alt='Picture of the author'
+        width={100} // automatically provided
+        // height={500} automatically provided
+        // blurDataURL="data:..." automatically provided
+        // placeholder="blur" // Optional blur-up while loading
+      />
       <main className='flex flex-col gap-8 row-start-2 items-center sm:items-start'>
         <Image
           className='dark:invert'
