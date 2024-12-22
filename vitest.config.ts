@@ -6,6 +6,7 @@ export default defineConfig({
   test: {
     environment: 'jsdom',
     alias: {
+      '@/public/': new URL('./public/', import.meta.url).pathname,
       '@/': new URL('./src/', import.meta.url).pathname
     }
   }
