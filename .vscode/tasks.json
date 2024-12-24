@@ -15,10 +15,10 @@
 		{
 			"type": "npm",
 			"script": "build",
-			"group": "build",
 			"problemMatcher": [],
 			"label": "npm: build",
-			"detail": "next build"
+			"detail": "next build",
+			"group": "build"
 		},
 		{
 			"type": "npm",
@@ -39,21 +39,21 @@
 		{
 			"type": "npm",
 			"script": "test",
+			"problemMatcher": [],
+			"label": "npm: test",
+			"detail": "vitest",
 			"group": {
 				"kind": "test",
 				"isDefault": true
-			},
-			"problemMatcher": [],
-			"label": "npm: test",
-			"detail": "vitest"
+			}
 		},
 		{
 			"type": "npm",
 			"script": "test:ui",
-			"group": "test",
 			"problemMatcher": [],
 			"label": "npm: test:ui",
-			"detail": "vitest --ui"
+			"detail": "vitest --ui",
+			"group": "test"
 		},
 		{
 			"type": "npm",
@@ -66,10 +66,10 @@
 		{
 			"type": "npm",
 			"script": "build-storybook",
-			"group": "build",
 			"problemMatcher": [],
 			"label": "npm: build-storybook",
-			"detail": "storybook build"
+			"detail": "storybook build",
+			"group": "build"
 		},
 		{
 			"type": "npm",
@@ -82,10 +82,10 @@
 		{
 			"type": "npm",
 			"script": "install",
-			"group": "build",
 			"problemMatcher": [],
 			"label": "npm: install",
-			"detail": "install dependencies from package"
+			"detail": "install dependencies from package",
+			"group": "build"
 		}
 	]
 }
