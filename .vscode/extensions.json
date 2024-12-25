@@ -2,6 +2,7 @@
     "recommendations": [
         "aaron-bond.better-comments",
         "eamodio.gitlens",
+        "esbenp.prettier-vscode",
         "sonarsource.sonarlint-vscode",
         "vitest.explorer"
     ]
