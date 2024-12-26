@@ -3,6 +3,7 @@
         "aaron-bond.better-comments",
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
+        "johnpapa.vscode-peacock",
         "sonarsource.sonarlint-vscode",
         "vitest.explorer"
     ]
