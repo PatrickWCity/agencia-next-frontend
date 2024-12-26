@@ -10,13 +10,13 @@ currently being supported with security updates.
 | Next.js 14.2.17+ | :x:                |
 | Next.js 14.2.16  | :white_check_mark: |
 
-| Version     | Supported          |
-| ----------- | ------------------ |
-| Chrome 64+  | :white_check_mark: |
-| Edge 79+    | :white_check_mark: |
-| Firefox 67+ | :white_check_mark: |
-| Opera 51+   | :white_check_mark: |
-| Safari 12+  | :white_check_mark: |
+| Browser Version | Supported          |
+| --------------- | ------------------ |
+| Chrome 64+      | :white_check_mark: |
+| Edge 79+        | :white_check_mark: |
+| Firefox 67+     | :white_check_mark: |
+| Opera 51+       | :white_check_mark: |
+| Safari 12+      | :white_check_mark: |
 
 ## Reporting a Vulnerability
 
