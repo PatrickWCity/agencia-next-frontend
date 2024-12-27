@@ -4,6 +4,7 @@
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "johnpapa.vscode-peacock",
+        "ms-azuretools.vscode-docker",
         "sonarsource.sonarlint-vscode",
         "vitest.explorer"
     ]
