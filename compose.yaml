@@ -1,0 +1,27 @@
+services:
+  agencia-next-frontend:
+    image: agencia-next-frontend
+    container_name: agencia-next-frontend
+    # Build the image from the Dockerfile in the current directory
+    build: .
+
+    # Host the Next.js application on port 3000
+    ports:
+      - '3000:3000'
+
+    develop:
+      # Create a `watch` configuration to update the app
+      # https://docs.docker.com/compose/file-watch/#compose-watch-versus-bind-mounts
+      watch:
+        # Sync the working directory with the `/src` directory in the container
+        - action: sync
+          path: .
+          target: /src
+          # Exclude the project virtual environment — it could be for a
+          # different platform in the container
+          ignore:
+            - node_modules/
+
+        # Rebuild the image if dependencies change by checking package-lock.json
+        - action: rebuild
+          path: ./package-lock.json
